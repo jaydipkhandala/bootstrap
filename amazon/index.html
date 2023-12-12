@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Website</title>
+  <link rel="stylesheet" href="3.css" />
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <script src="./jquery-3.7.1.min.js"></script>
+  <script src="./popper.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+
+
+</head>
+<!--Font awesome link-->
+<script src="https://kit.fontawesome.com/e92ac5aae5.js" crossorigin="anonymous"></script>
+
+<!--Bootstrap javascript Link-->
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src=".//img/Amazon_logo.svg.png" height="70" width="220">&nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="navbar-brand"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>&nbsp;&nbsp;
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index/product-list.html">Products</a>&nbsp;&nbsp;
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index/myorder.html">Orders</a>&nbsp;&nbsp;
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index/profilepage.html">Profile</a>&nbsp;&nbsp;
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index/ContactUs.html">Contact Us</a>&nbsp;&nbsp;
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index/aboutus.html">About us</a>&nbsp;&nbsp;
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><a href="./index/logingpage.html" class="mybtn">Login</a></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  
+
+  <!--Making an Image-Slider-->
+  <section class="mysec">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active myindicators"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/firstbaner.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5><b>Top Selling Shoes</b></h5>
+            <p>Buy Shoes as you like,as your category and more..!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/Speakers.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <!--<i class="fa-solid fa-backward-step"></i>-->
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <!--<i class="fa-solid fa-forward-step"></i>-->
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section><br>
+  <h1 class="sec-1heading">
+    <center><b>Deals of the Day</b></center>
+  </h1><br>
+  <section class="section-1">
+
+
+
+    <div class="Product-deal">
+      <div class="product-detail">
+        <img class="img-1" src="./img/watch.jpg" alt=""><br>
+        <div class="d1">
+          <h3><b>Fossil</b></h3>
+          <h6> Fossil Analog Black Dial Men's Watch - FS5437</h6>
+          <p class="discout">39% off</p>
+          <p>
+          <h2><b><sup>₹</sup>12,495</b></h2>
+          </p>
+          <a class="nav-link" href="./index/Fossil1.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="Product-deal1">
+      <div class="product-detail1">
+        <img class="img-1" src="./img/apple.jpg" alt=""><br>
+        <div class="d1">
+          <h3><b>APPLE</b></h3>
+          <h6>Apple iPhone 14 Pro Max (256 GB) - Deep Purple</h6>
+          <p class="discout">19% off</p>
+          <p>
+          <h2><b><sup>₹</sup>1,19,999</b></h2>
+          </p>
+          <a class="nav-link" href="./index/Apple1.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-1">
+
+
+
+    <div class="vertical"></div>
+    <div class="Product-deal">
+      <div class="product-detail"><br><br><br>
+        <img class="img-1" src="./img/samsung.jpg" alt=""><br><br><br><br>
+        <div class="d1">
+          <h3><b>Samsung</b></h3>
+          <h6>Samsung Galaxy S23 Ultra 5G (Green, 12GB, 512GB Storage)</h6>
+          <p class="discout">17% off</p>
+          <p>
+          <h2><b><sup>₹</sup>1,34,999</b></h2>
+          </p>
+          <a class="nav-link" href="./index/samsung1.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="Product-deal1">
+      <div class="product-detail1">
+        <img class="img-1" src="./img/hoodie.jpg" alt=""><br>
+        <div class="d1">
+          <h3><b>Hoodie</b></h3>
+          <h6>TeesTheDay Unisex Attack On Titan Hoodie Black | Attack On Titan Hoodie | High GSM Attack On Titan AOT
+            Hoodie for Men, Women, Girls and Boys</h6>
+          <p class="discout">10% off</p>
+          <p>
+          <h2><b><sup>₹</sup>999</b></h2>
+          </p>
+          <a class="nav-link" href="./index/hoodie.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-1">
+
+
+
+    <div class="vertical"></div>
+    <div class="Product-deal">
+      <div class="product-detail">
+        <img class="img-1" src="./img/s1.jpg" alt=""><br>
+        <div class="d1">
+          <h3><b>ASIAN Carnival-02</b></h3>
+          <h6>ASIAN Carnival-02 Men's High Top Casual Chunky Fashion Sneakers,Dancing Shoes | Basketball Shoes with
+            Rubber Outsole for Boys</h6>
+          <p class="discout">30% off</p>
+          <p>
+          <h2><b><sup>₹</sup>3,999</b></h2>
+          </p>
+          <a class="nav-link" href="./index/shooze.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="Product-deal1">
+      <div class="product-detail1">
+        <img class="img-1" src="./img/ASUS.jpg" alt=""><br>
+        <div class="d1">
+          <h3><b>ASUS ROG Strix</b></h3>
+          <h6>ASUS ROG Strix Scar 18 (2023), Intel Core i9 13th Gen, 18" (45.72 cm) FHD+ 165Hz, 12GB RTX 4080, Gaming
+            Laptop (32GB/1TB SSD/Win 11/Office 2021/90WHr Battery/Black/3.1 Kg), G834JZ-N5041WS</h6>
+          <p class="discout">19% off</p>
+          <p>
+          <h2><b><sup>₹</sup>2,79,990</b></h2>
+          </p>
+          <a class="nav-link" href="./index/leptop.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-1">
+
+
+
+    <div class="vertical"></div>
+    <div class="Product-deal">
+      <div class="product-detail">
+        <img class="img-1" src=".//img/Marshall.jpg " alt=""><br>
+        <div class="d1">
+          <h3><b>Marshall Stanmore</b></h3>
+          <h6>Marshall Stanmore II Wireless Bluetooth Speaker (White)</h6>
+          <p class="discout">13% off</p>
+          <p>
+          <h2><b><sup>₹</sup>34,999</b></h2>
+          </p>
+          <a class="nav-link" href="./index/speaker.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="Product-deal1">
+      <div class="product-detail1">
+        <img class="img-1" src="./img/bag.jpg" alt=""><br>
+        <div class="d1">
+          <h3><b>FENRUIEN Backpack</b></h3>
+          <h6>FENRUIEN Gaming Laptop Backpack 17.3 Inch</h6>
+          <p class="discout">38% off</p>
+          <p>
+          <h2><b><sup>₹</sup>22,981</b></h2>
+          </p>
+          <a class="nav-link" href="./index/bag.html"><button class="buy">Buy</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Get to Know Us</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press Releases</a></li>
+          <li><a href="#">Amazon Cares</a></li>
+          <li><a href="#">Gift a Smile</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Connect with Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Make Money with Us</h3>
+        <ul>
+          <li><a href="#">Sell on Amazon</a></li>
+          <li><a href="#">Sell under Amazon Accelerator</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">Advertise Your Products</a></li>
+          <li><a href="#">Self-Publish with Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Amazon Payment Products</h3>
+        <ul>
+          <li><a href="#">Amazon Business Card</a></li>
+          <li><a href="#">Shop with Points</a></li>
+          <li><a href="#">Reload Your Balance</a></li>
+          <li><a href="#">Amazon Currency Converter</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-section">
+        <a href="#">Conditions of Use</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Interest-Based Ads</a>
+      </div>
+      <div class="footer-section">
+        &copy; 2023 Amazon.com, Inc. or its affiliates
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
